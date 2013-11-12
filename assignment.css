@@ -1,0 +1,41 @@
+.webfont{font-family: 'Tangerine', serif; font-size: 30px; font-weight:bold;}
+			
+.gradient
+{
+	background: -webkit-linear-gradient(red, blue); /* For Safari */
+	background: -o-linear-gradient(red, blue); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(red, blue); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(red, blue); /* Standard syntax (must be last) */
+	border:2px solid;
+	border-radius:25px;
+}
+body{
+	background-color: BurlyWood;
+	padding:10px;
+	padding-bottom:60px;   /* Height of the footer */
+}
+h1{
+	text-align:center;
+	text-shadow:2px 2px 8px yellow;
+	font-family: 'Tangerine';
+	font-size: 60px;
+}
+p{
+	text-indent:50px;
+	text-align: justify;
+}
+.left{
+float:left;
+}
+.right{
+float:right;
+}
+.center{
+text-align:center;
+}
+.footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;   /* Height of the footer */
+}
